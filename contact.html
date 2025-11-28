@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar sidebarGo">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="intro.html">My Intro</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="contactform">
+      <div class="hamburger">
+          <img class="ham" src="ham.png" alt="options" width="23">
+          <img class="cross" src="cross.png" alt="cross" width="23">
+        </div>
+      <h1>Contact me for work/general enquiries</h1>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name </label>
+          <input type="text" class="form-control-email" id="name" aria-describedby="emailHelp" />
+        </div>
+        
+        <div class="mb-3">
+          <label for="clientEmail" class="form-label">Email address </label>
+          <input type="email" class="form-control-email" id="clientEmail" aria-describedby="emailHelp" />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.Jaan de denge but email nhi
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="clientphone" class="form-label">Phone</label>
+          <input type="phone" class="form-control-phone" id="clientphone" />
+        </div>
+        <div id="form-check">
+          <input type="checkbox" class="checkbox-style" id="isclient" />
+          <label for="isclient">Do you want to work with me.</label>
+        </div >
+        <button type="submit" class="btn btn-sn">Submit</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
